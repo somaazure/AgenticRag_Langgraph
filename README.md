@@ -26,3 +26,6 @@ The selected use case guides the GraphBuilder to construct a semantic graph.
 The GroqLLM serves as the large language model.
 
 The constructed graph handles the flow of messages and maintains state across conversations.
+
+<img width="941" alt="Streamlit_Chatbot" src="https://github.com/user-attachments/assets/4a174ee7-9fcf-4c90-bc56-ba2b66a9772b" />
+
