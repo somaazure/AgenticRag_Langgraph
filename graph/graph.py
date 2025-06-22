@@ -1,3 +1,4 @@
+####### to execute this Script in the terminal: langgraph dev and <enter>
 from dotenv import load_dotenv
 from langgraph.graph import END, StateGraph
 
@@ -7,8 +8,14 @@ from graph.chains.router import RouteQuery, question_router
 from graph.consts import GENERATE, GRADE_DOCUMENTS, RETRIEVE, WEBSEARCH
 from graph.nodes import generate, grade_documents, retrieve, web_search
 from graph.state import GraphState
+import os
 
 load_dotenv()
+
+## LangSmith Tracing
+os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
+
+os.environ["LANGSMITH_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
 
 
 def decide_to_generate(state):
