@@ -2,7 +2,7 @@
 name = "langgaph-course"
 version = "0.1.0"
 description = ""
-authors = ["Eden Marco <emarco177@gmail.com>"]
+authors = ["Somashekar"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
