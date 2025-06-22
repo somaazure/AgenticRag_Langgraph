@@ -29,3 +29,7 @@ The constructed graph handles the flow of messages and maintains state across co
 
 <img width="941" alt="Streamlit_Chatbot" src="https://github.com/user-attachments/assets/4a174ee7-9fcf-4c90-bc56-ba2b66a9772b" />
 
+LangSmith Tracing:
+<img width="940" alt="LangSmith_Tracing" src="https://github.com/user-attachments/assets/d774c5a3-3e84-462c-b226-4a4b72e18f88" />
+
+
